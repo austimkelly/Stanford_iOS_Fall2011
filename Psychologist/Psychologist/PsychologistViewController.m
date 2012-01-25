@@ -18,11 +18,22 @@
 
 @synthesize diagnosis = _diagnosis;
 
+- (HappinessViewController *)splitViewHappinessViewController {
+    id hvc = [self.splitViewController.viewControllers lastObject];
+    if (![hvc isKindOfClass:[HappinessViewController class]]){
+        hvc = nil;
+    }
+    return hvc;
+}
+
 - (void)setAndShowDiagnosis:(int)diagnosis {
     self.diagnosis = diagnosis;
     //seque
-    [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
-    
+    if ([self splitViewHappinessViewController]){
+        [self splitViewHappinessViewController].happiness = diagnosis;
+    } else {
+        [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
+    }
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -49,6 +60,17 @@
 - (IBAction)dragons {
     [self setAndShowDiagnosis:20];
 }
+
+- (IBAction)celebrity {
+    [self setAndShowDiagnosis:85];
+}
+- (IBAction)seriousProblem {
+    [self setAndShowDiagnosis:10];
+}
+- (IBAction)tvKook {
+    [self setAndShowDiagnosis:60];
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
