@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E67E4E14D1FF4C00E1535A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E67E4D14D1FF4C00E1535A /* UIKit.framework */; };
+		84E67E5014D1FF4C00E1535A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E67E4F14D1FF4C00E1535A /* Foundation.framework */; };
+		84E67E5214D1FF4C00E1535A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E67E5114D1FF4C00E1535A /* CoreGraphics.framework */; };
+		84E67E5814D1FF4C00E1535A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E67E5614D1FF4C00E1535A /* InfoPlist.strings */; };
+		84E67E5A14D1FF4C00E1535A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E67E5914D1FF4C00E1535A /* main.m */; };
+		84E67E5E14D1FF4C00E1535A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E67E5D14D1FF4C00E1535A /* AppDelegate.m */; };
+		84E67E6114D1FF4C00E1535A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E67E5F14D1FF4C00E1535A /* MainStoryboard_iPhone.storyboard */; };
+		84E67E6414D1FF4C00E1535A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E67E6214D1FF4C00E1535A /* MainStoryboard_iPad.storyboard */; };
+		84E67E6F14D201F900E1535A /* FlickrPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E67E6E14D201F900E1535A /* FlickrPhotoTableViewController.m */; };
+		84E67E8B14D2081400E1535A /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E67E8914D2081400E1535A /* FlickrFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84E67E4914D1FF4C00E1535A /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E67E4D14D1FF4C00E1535A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84E67E4F14D1FF4C00E1535A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84E67E5114D1FF4C00E1535A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84E67E5514D1FF4C00E1535A /* Shutterbug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shutterbug-Info.plist"; sourceTree = "<group>"; };
+		84E67E5714D1FF4C00E1535A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E67E5914D1FF4C00E1535A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E67E5B14D1FF4C00E1535A /* Shutterbug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shutterbug-Prefix.pch"; sourceTree = "<group>"; };
+		84E67E5C14D1FF4C00E1535A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E67E5D14D1FF4C00E1535A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E67E6014D1FF4C00E1535A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		84E67E6314D1FF4C00E1535A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		84E67E6D14D201F900E1535A /* FlickrPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoTableViewController.h; sourceTree = "<group>"; };
+		84E67E6E14D201F900E1535A /* FlickrPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoTableViewController.m; sourceTree = "<group>"; };
+		84E67E8814D2081400E1535A /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		84E67E8914D2081400E1535A /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		84E67E8A14D2081400E1535A /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E67E4614D1FF4C00E1535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E67E4E14D1FF4C00E1535A /* UIKit.framework in Frameworks */,
+				84E67E5014D1FF4C00E1535A /* Foundation.framework in Frameworks */,
+				84E67E5214D1FF4C00E1535A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E67E3E14D1FF4C00E1535A = {
+			isa = PBXGroup;
+			children = (
+				84E67E5314D1FF4C00E1535A /* Shutterbug */,
+				84E67E4C14D1FF4C00E1535A /* Frameworks */,
+				84E67E4A14D1FF4C00E1535A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E67E4A14D1FF4C00E1535A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E67E4914D1FF4C00E1535A /* Shutterbug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E67E4C14D1FF4C00E1535A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E67E4D14D1FF4C00E1535A /* UIKit.framework */,
+				84E67E4F14D1FF4C00E1535A /* Foundation.framework */,
+				84E67E5114D1FF4C00E1535A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E67E5314D1FF4C00E1535A /* Shutterbug */ = {
+			isa = PBXGroup;
+			children = (
+				84E67E5F14D1FF4C00E1535A /* MainStoryboard_iPhone.storyboard */,
+				84E67E6214D1FF4C00E1535A /* MainStoryboard_iPad.storyboard */,
+				84E67E6D14D201F900E1535A /* FlickrPhotoTableViewController.h */,
+				84E67E6E14D201F900E1535A /* FlickrPhotoTableViewController.m */,
+				84E67E8814D2081400E1535A /* FlickrFetcher.h */,
+				84E67E8914D2081400E1535A /* FlickrFetcher.m */,
+				84E67E8A14D2081400E1535A /* FlickrAPIKey.h */,
+				84E67E5414D1FF4C00E1535A /* Supporting Files */,
+			);
+			path = Shutterbug;
+			sourceTree = "<group>";
+		};
+		84E67E5414D1FF4C00E1535A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E67E5C14D1FF4C00E1535A /* AppDelegate.h */,
+				84E67E5D14D1FF4C00E1535A /* AppDelegate.m */,
+				84E67E5514D1FF4C00E1535A /* Shutterbug-Info.plist */,
+				84E67E5614D1FF4C00E1535A /* InfoPlist.strings */,
+				84E67E5914D1FF4C00E1535A /* main.m */,
+				84E67E5B14D1FF4C00E1535A /* Shutterbug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E67E4814D1FF4C00E1535A /* Shutterbug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E67E6A14D1FF4C00E1535A /* Build configuration list for PBXNativeTarget "Shutterbug" */;
+			buildPhases = (
+				84E67E4514D1FF4C00E1535A /* Sources */,
+				84E67E4614D1FF4C00E1535A /* Frameworks */,
+				84E67E4714D1FF4C00E1535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shutterbug;
+			productName = Shutterbug;
+			productReference = 84E67E4914D1FF4C00E1535A /* Shutterbug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E67E4014D1FF4C00E1535A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84E67E4314D1FF4C00E1535A /* Build configuration list for PBXProject "Shutterbug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84E67E3E14D1FF4C00E1535A;
+			productRefGroup = 84E67E4A14D1FF4C00E1535A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E67E4814D1FF4C00E1535A /* Shutterbug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E67E4714D1FF4C00E1535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E67E5814D1FF4C00E1535A /* InfoPlist.strings in Resources */,
+				84E67E6114D1FF4C00E1535A /* MainStoryboard_iPhone.storyboard in Resources */,
+				84E67E6414D1FF4C00E1535A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E67E4514D1FF4C00E1535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E67E5A14D1FF4C00E1535A /* main.m in Sources */,
+				84E67E5E14D1FF4C00E1535A /* AppDelegate.m in Sources */,
+				84E67E6F14D201F900E1535A /* FlickrPhotoTableViewController.m in Sources */,
+				84E67E8B14D2081400E1535A /* FlickrFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E67E5614D1FF4C00E1535A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E67E5714D1FF4C00E1535A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84E67E5F14D1FF4C00E1535A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E67E6014D1FF4C00E1535A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		84E67E6214D1FF4C00E1535A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E67E6314D1FF4C00E1535A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E67E6814D1FF4C00E1535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E67E6914D1FF4C00E1535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E67E6B14D1FF4C00E1535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shutterbug/Shutterbug-Prefix.pch";
+				INFOPLIST_FILE = "Shutterbug/Shutterbug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84E67E6C14D1FF4C00E1535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shutterbug/Shutterbug-Prefix.pch";
+				INFOPLIST_FILE = "Shutterbug/Shutterbug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E67E4314D1FF4C00E1535A /* Build configuration list for PBXProject "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E67E6814D1FF4C00E1535A /* Debug */,
+				84E67E6914D1FF4C00E1535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E67E6A14D1FF4C00E1535A /* Build configuration list for PBXNativeTarget "Shutterbug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E67E6B14D1FF4C00E1535A /* Debug */,
+				84E67E6C14D1FF4C00E1535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E67E4014D1FF4C00E1535A /* Project object */;
+}
